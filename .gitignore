@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.localized
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Rider
+.idea/
+*.iml
+
+# Visual Studio
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+Generated\ Files/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+
+# ASP.NET
+wwwroot/
+artifacts/
+
+# Node.js
+node_modules/
