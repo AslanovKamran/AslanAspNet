@@ -9,6 +9,9 @@ public class StartupConfigurator : IConfigurator
     public void Configure(MiddlewareBuilder builder)
     {
         builder.Use<LoggerMiddleware>();
-        builder.Use<HtmlFileMiddleware>();
+        builder.Use<StaticFilesMiddleware>();
+        builder.Use<MVCMiddleware>();
+
+        //builder.Use<HtmlFileMiddleware>();
     }
 }
